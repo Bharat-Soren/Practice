@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 def operations(op_name,val1,val2,return_type):
     global result
-    operation = op_name 
+    operation = op_name
     num1 = val1
     num2 = val2
     if (operation == 'add'):
